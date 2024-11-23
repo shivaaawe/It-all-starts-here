@@ -1,6 +1,6 @@
 public class counting_occurences {
     public static void main(String[] args) {
-        System.out.println("Counting Occurences");
+        System.out.println("Counting Occurences.");
         int x = 12323222;
         int count = 0;
         while (x>0){
