@@ -1,6 +1,6 @@
 public class reverse {
     public static void main(String[] args) {
-        System.out.println("Reverse the number");
+        System.out.println("Reversing the Number");
         int number = 123456;
         int answer = 0;
         while(number>0){
