@@ -4,7 +4,7 @@ public class greatest_of_three_numbers{
     public static void main(String[] args) {
         System.out.println("Greatest of three numbers java program");
         Scanner sc = new Scanner(System.in);
-        System.out.println(" Enter three numbers.");
+        System.out.println(" Enter three numbers");
         int a = sc.nextInt();
         int b = sc.nextInt();
         int c = sc.nextInt();
