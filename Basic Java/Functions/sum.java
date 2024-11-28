@@ -13,7 +13,7 @@ public class sum {
         /*
          * Here, whenever we try to add the scanner in the main code, it gives us the error to close the scanner. 
          * But when we close the scanner it automatically closes and throws the error which would be difficult for us to run the methods more than once.
-         * For that what we can do is, we should not close the Scanner object it it will be reused. 
+         * For that what we can do is, we should not close the Scanner object it will be reused. 
          * 
          * For that what we have done is, we have create a single scanner instance in the main() method and pass it as a parameter to the add() method.
          * This avoids creating and closing multiple Scanner objects. 
