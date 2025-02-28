@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class main{
+public class ufff{
     public static void main(String[] args) {
         int firstNumber = 0;
         int secondNumber = 1;
