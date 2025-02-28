@@ -27,8 +27,8 @@ public class pqs_loops {
         //Question 3 - Factorial of the given number 
         System.out.println("Enter the number");
         Scanner sc = new Scanner(System.in);
-        int fact = 1;
-        int num = sc.nextInt();
+        int fact = 1; //To store the factorial
+        int num = sc.nextInt(); //Input from the user
         int i = 1;
         while (i<=num){
             fact *= i;
