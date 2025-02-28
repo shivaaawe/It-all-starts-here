@@ -62,6 +62,7 @@ public class pqs_loops {
                 System.out.println("Not a prime");
             }
         }
+        sc.close();
 
     }
 }
