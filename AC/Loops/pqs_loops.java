@@ -36,5 +36,32 @@ public class pqs_loops {
         }
         System.out.println(fact);
 
+        //Question 4 - Write a pogram to print the multiplication table of a number N, entered by the user.
+        System.out.println("Enter a number to print the multiplication table.");
+        int mul_num = sc.nextInt();
+        for(int j=1;j<=10;j++){
+            System.out.println(mul_num+" X "+j+" = "+(mul_num*j));
+        }
+
+        //Prime or not
+        int prime_num = sc.nextInt();
+        if (prime_num == 2){
+            System.out.println("Is a prime");
+        }
+        else{
+            boolean isPrime = true;
+            for(int k=2;k<=prime_num-1;k++){
+                if(prime_num%k==0){
+                    isPrime = false;
+                }
+            }
+            if (isPrime==true){
+                System.out.println("Is prime");
+            }
+            else{
+                System.out.println("Not a prime");
+            }
+        }
+
     }
 }
