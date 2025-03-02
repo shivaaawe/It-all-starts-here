@@ -13,6 +13,6 @@ public class primeornot {
         return true;
     }
     public static void main(String[] args) {
-      System.out.println(primeornot1(13));  
+      System.out.println(primeornot1(13));
     }
 }
