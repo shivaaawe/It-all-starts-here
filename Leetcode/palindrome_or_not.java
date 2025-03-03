@@ -1,4 +1,6 @@
-class Solution {
+package Leetcode;
+
+public class palindrome_or_not {
     public static boolean isPalindrome(int x) {  
         int myNum = x;
         int rev = 0;
