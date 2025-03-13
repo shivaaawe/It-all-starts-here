@@ -20,6 +20,7 @@ public class array {
         System.out.println("Updated Math Marks: " +marks[1]);
 
         int percentage = (marks[0]+marks[1])/2;
+        System.out.println(marks.length);
         System.out.println("Percentage is:"+percentage+"%");
         sc.close();
     }
