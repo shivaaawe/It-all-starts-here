@@ -2,7 +2,7 @@ package AC.Arrays;
 
 public class sub_arrays {
     public static void subarrays(int numbers[]){
-        int totalSubArrays = 0;
+        int totalSubArrays = 0; // Number of Sub Arrays
         for(int i=0; i<numbers.length; i++){
             for(int j=i; j<numbers.length; j++){
                 int sum = 0; // Initialize sum for the current subarray

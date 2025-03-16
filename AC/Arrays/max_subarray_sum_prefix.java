@@ -12,7 +12,7 @@ public class max_subarray_sum_prefix {
         }
         for(int i=0; i<numbers.length; i++){
             for(int j=i+1; j<numbers.length; j++){
-                int currSum = i == 0? prefix[j] : prefix[i-1];
+                int currSum = i == 0? prefix[j] : prefix[j] - prefix[i-1];
                 maxSum = Math.max(maxSum, currSum);
             }
         }
