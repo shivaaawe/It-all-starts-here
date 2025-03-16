@@ -19,7 +19,7 @@ public class max_subarray_sum_prefix {
         System.out.println("Maxsum of the Subarray using Prefix Sum Approach is: "+maxSum);
     }
     public static void main(String[] args) {
-        int [] numbers = {1,2,-3,4,5,-5,6,-7};
+        int [] numbers = {1,-2,3,-1,5};
         maxsubarraysumprefix(numbers);
     }
 }
