@@ -1,4 +1,4 @@
-package AC.Arrays;
+package AC.Arrays.Practice_Questions;
 
 public class pq_appearing_at_least_twice {
     public static boolean appearing_at_least_twice(int [] numbers){
