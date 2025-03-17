@@ -2,7 +2,7 @@ package AC.Arrays;
 
 public class buy_and_sell_stocks {
     public static int buyandsellstocks(int [] prices){
-        int buyingPrice = Integer.MAX_VALUE;
+        int buyingPrice = prices[0];
         int maxProfit = 0;
 
         for(int i=0; i<prices.length; i++){
