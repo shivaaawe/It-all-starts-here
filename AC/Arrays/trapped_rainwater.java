@@ -24,6 +24,7 @@ public class trapped_rainwater{
 
            //trapped water = (waterLevel - height) * width
            trappedWater += waterLevel - height[i]; 
+           //considering the width as 1
         }
         return trappedWater;
     }
